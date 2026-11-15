@@ -1,0 +1,1 @@
+make a project where i write functions or algorithms in different languages to see the difference between them, Main languages to write in: Python, Java, Assembly. Function to start with: Recurrsive Factorial and normal Factorial.
