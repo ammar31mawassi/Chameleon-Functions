@@ -5,7 +5,7 @@ $(algorithms): %: build/%
 
 .SECONDEXPANSION:
 build/%: build/%.o
-	gcc -o "$@" "$<"
+	gcc -no-pie -o "$@" "$<"
 
 build/%.o: $$*/$$*.asm
 	mkdir -p build
